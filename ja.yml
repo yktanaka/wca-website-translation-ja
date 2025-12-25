@@ -255,7 +255,7 @@ ja:
     #original_hash: f030c3d
     333fm: 1時間
     #original_hash: cc7d8bb
-    333mbf: 1個あたり10分
+    333mbf: 1個あたり10分（最大60分）
     #original_hash: da39a3e
     333mbo: ''
   common:
@@ -531,6 +531,19 @@ ja:
         f: 女性
         #original_hash: 6e6a6f2
         o: その他
+    user_roles:
+      status:
+        officers:
+          #original_hash: de34439
+          chair: WCA議長
+          #original_hash: 7d405ff
+          executive_director: WCA代表実行役員
+          #original_hash: 1dd4a07
+          secretary: WCA書記
+          #original_hash: 0388b19
+          vice_chair: WCA副議長
+          #original_hash: 75e65d9
+          treasurer: WCA会計
     competition_medium:
       status:
         #original_hash: 61a0572
@@ -899,10 +912,14 @@ ja:
       about: WCA について
       #original_hash: ed97787
       documents: 各種文書
+      #original_hash: c9bae18
+      officers_and_board: WCA 役員、理事
       #original_hash: d8fd3e4
       delegates: WCA 代理人
       #original_hash: 37b8fdc
       organizations: 地域団体
+      #original_hash: 959d354
+      translators: 翻訳者
       #original_hash: d790b40
       faq: よくある質問
       #original_hash: cf1d2c9
@@ -975,6 +992,226 @@ ja:
       api: API
       #original_hash: acac109
       media_submission: メディア投稿
+  page:
+    officers_and_board:
+      #original_hash: c9bae18
+      title: WCA 役員、理事
+      #original_hash: 312e799
+      officers_description: >-
+        WCA役員は、WCAのNPOとしての事務処理を取り扱います。WCA役員は、WCA理事によって選出されます。代表執行役員はWCAの執行役員の長です。議長はすべての理事会を主宰します。書記は組織の文書を管理・保全します。会計はWCAの会計を担います。
+      #original_hash: 19d4bbb
+      board_description: WCA理事は組織全体の運営を主導し、また他のチーム・委員会の担当外の事項を担当します。
+    teams_committees_councils:
+      #original_hash: 1d14e2f
+      title: WCAチーム・委員会
+      #original_hash: 9fdee8f
+      description: >-
+        WCAのチームおよび委員会は、WCAを機能させるための日々のタスクを担う不可欠な組織です。これらの委員会は、WCA代理人や競技者などからなるWCAコミュニティメンバーによって成り立っています。各チームにはチームを機能させ、また他のメンバーをサポートするリーダーが設けられています。チームや委員会がメンバーを募集している場合は、WCAウェブサイトのトップページに募集要項が掲載されます。
+      #original_hash: b37456c
+      contact_button: 連絡先
+      #original_hash: ae7928f
+      no_contact_description: 連絡先は非公開です。
+      groups_description:
+        #original_hash: d62001b
+        wat: >-
+          WCA Archive Team
+          (WAT)は、WCAの沿革情報の管理を担います。WATは、スピードキュービングにおいて節目となる出来事やWCAの特筆すべきマイルストーンを記録し、スピードキュービングにおけるWCAのレガシーを保全します。
+        #original_hash: 7803faf
+        wct: >-
+          WCA Communication Team
+          (WCT)は、コミュニティや一般の方とWCAのコミュニケーションを統括・支援する役割を担います。WCAのコミュニケーションはWCAの目的を達成するのに貢献し、親しみやすさ、透明性、包摂性、開放性、誠実性といった文化を支えるものを目指しています。
+        #original_hash: bd69012
+        wcat: >-
+          WCA Competition Announcement Team
+          (WCAT)はWCA代理人によって申請されたWCA大会を承認・告知し、またそれらがWCAの品質基準を満たしていることを保証します。WCATはさらに、WCA
+          Competition Requirements
+          Policyによって大会開催の申請方法を適切に管理・公開する責任も負います。ただし、WCAは個別の大会の組織・監督に対する責任は持ちません。
+        #original_hash: 5007698
+        wic: >-
+          WCA Integrity Committee
+          (WIC)はWCAコミュニティメンバーやWCA大会・WCAプラットフォームでの事案に対して独立した調査を行います。調査対象は、WCAの理念、行動規範、倫理規定、大会規則の違反申し立てなどの事案です。
+        #original_hash: be491ec
+        weat: WCA Executive Assistant Team (WEAT)はWCA理事の事務処理を実行します。
+        #original_hash: fc67562
+        wfc: >-
+          WCA Financial Committee (WFC)
+          は、予算編成・会計報告・分析・会計処理・税務申告などのWCAの会計業務全体を担います。WFCはWCA最大の収入源であるWCA会費 (WCA
+          Dues System)
+          を管理するほか、旅費支援・備品支援・地域団体支援等の形で地域コミュニティへの財務支援をその成熟段階に応じて実施しています。
+        #original_hash: 88a00fa
+        wmt: WCA Marketing Team (WMT) は、スポンサー募集や関連商品マーケティング等の面でWCAブランドを管理しています。
+        #original_hash: fcaa701
+        wmct: >-
+          WCA Major Championship Team (WMCT)
+          は、WCAの大陸別大会・世界大会等の大型大会について、開催地の選定・組織委員会の支援・参加体験の一貫性の担保などの形で、その調整・発展を統括しています。
+        #original_hash: 010e628
+        wqac: >-
+          WCA Quality Assurance Committee (WQAC)
+          は、WCA品質基準を全世界に広げ、WCA・地域団体・大会組織委員会・大会ボランティアの活動における継続的な品質向上を推進する役割を担います。
+        #original_hash: 355babe
+        wrc: >-
+          WCA Regulations Committee (WRC)
+          は、WCA大会規則の適用・改善・発展に関するすべての事項を取り扱います。WRCはWCA大会で発生した問題の解決に関してWCA代理人を支援し、また未解決・未対応の事案に対して決定を下します。
+        #original_hash: 7ca3e6f
+        wrt: WCA Results Team (WRT) は、大会結果や個人データなど、WCAデータベースのすべてのデータの管理を行います。
+        #original_hash: f905744
+        wst: >-
+          WCA Software Team (WST)
+          は、WCAウェブサイト・スクランブルプログラム・ワークブック・管理ツールなどのWCAソフトウェアを管理・開発しています。
+        #original_hash: 638652c
+        wsot: WCA Sports Organization Team (WSOT) は、国際スポーツ組織としてのWCAの認知度向上を支援・統括します。
+        #original_hash: 30d6048
+        wapc: >-
+          WCA Appeals Committee (WAC)
+          は、他のWCAボランティアによる決定に対する不服申し立てを審査・解決します。公平・合理的かつWCAポリシー・規則と整合的な判断を下すために、WACは独立・公正な審査を実施します。
+    contacts:
+      #original_hash: 4ef2aad
+      title: WCAお問い合わせフォーム
+      #original_hash: ab97069
+      faq_note_html: >-
+        お問い合わせの前に、<a
+        href="/faq">よくある質問</a>ページをご覧ください。もし以下の一覧にないチーム・委員会へのお問い合わせをご希望の場合は、<a
+        href="/teams-committees">WCAチーム・委員会</a>ページに記載の連絡先までご連絡ください。
+      #original_hash: ea20be0
+      success_message: お問い合わせメールが送信されました。返信までしばらくお待ちください。
+      #original_hash: 8fa6b95
+      prefilled: >-
+        大会申込情報を更新するには、大会の運営に連絡してください。リクエストされた変更内容はフォームに事前入力されているため、このフォームを送信してください。
+      form:
+        user_data:
+          name:
+            #original_hash: 709a232
+            label: 氏名
+          email:
+            #original_hash: 84add5b
+            label: メールアドレス
+        contact_recipient:
+          #original_hash: 54f0036
+          label: 誰宛てのお問い合わせをご希望ですか？
+          competition:
+            #original_hash: 5a280ab
+            label: 特定の大会の運営・WCA代理人（WCAウェブサイトにて大会結果がまだ公開されていない大会）
+          wct:
+            #original_hash: b73e465
+            label: >-
+              WCAへの一般的な質問（WCA IDや個人プロフィール、大会の運営、大会ルール、メディア等）
+              ※お問い合わせ本文は英語で記載してください。
+          wrt:
+            #original_hash: 4dd66f7
+            label: WCA Results Team（WCAウェブサイト上の競技結果や個人プロフィール等） ※お問い合わせ本文は英語で記載してください。
+          wst:
+            #original_hash: 2be6d53
+            label: >-
+              WCA Software Team（WCAウェブサイトやソフトウェア関係のお問い合わせ）
+              ※お問い合わせ本文は英語で記載してください。
+        competition:
+          competition:
+            #original_hash: 1917f4f
+            label: 大会を選択してください
+          message:
+            #original_hash: 68f4145
+            label: お問い合わせ本文
+        wct:
+          message:
+            #original_hash: 68f4145
+            label: お問い合わせ本文
+        wrt:
+          query_type:
+            #original_hash: d31ab65
+            label: どのようなお問い合わせですか？
+            edit_profile:
+              #original_hash: 322db6c
+              label: 自分の個人プロフィールの更新（氏名、地域、性別、生年月日）
+            edit_others_profile:
+              #original_hash: d08e8eb
+              label: 他人の個人プロフィールの更新（氏名、国・地域、性別、生年月日）
+            report_result_issue:
+              #original_hash: 2edbb52
+              label: 大会結果に関する問題の報告
+            other_query:
+              #original_hash: 7618a0c
+              label: その他のお問い合わせ
+          message:
+            #original_hash: 68f4145
+            label: お問い合わせ本文
+          profile_data_to_change:
+            #original_hash: 25b71ff
+            label: 変更したい個人プロフィールデータ
+            options:
+              #original_hash: 709a232
+              name: 氏名
+              #original_hash: d523ebb
+              country: 国・地域
+              #original_hash: 8a754c6
+              gender: 性別
+              #original_hash: 293dd60
+              dob: 生年月日
+          new_profile_data_name:
+            #original_hash: ddbcd37
+            label: 変更後の氏名
+          new_profile_data_country:
+            #original_hash: e4e355e
+            label: 変更後の国・地域
+          new_profile_data_gender:
+            #original_hash: 48ce2a3
+            label: 変更後の性別
+          new_profile_data_dob:
+            #original_hash: 9f1c3d2
+            label: 変更後の生年月日
+          edit_profile_reason:
+            #original_hash: fdfcccf
+            label: 変更の理由 ※英語で記載してください。
+          edit_profile_proof_attach:
+            #original_hash: a9645b1
+            label: 証明書類の添付
+        wst:
+          message:
+            #original_hash: 68f4145
+            label: お問い合わせ本文
+        captcha:
+          #original_hash: 58c1271
+          validation_error: 私はロボットではありません。
+        #original_hash: bc98198
+        next_button: 次へ
+        #original_hash: 2dacf65
+        submit_button: 送信
+    contact_edit_profile:
+      #original_hash: 460577c
+      title: プロフィール変更フォーム
+      #original_hash: f01c4c7
+      not_logged_in_error: >-
+        プロフィールを変更するにはログインしてください。その他のお問い合わせについては、直接<a
+        href="https://www.worldcubeassociation.org/contact?contactRecipient=wrt">WRT</a>にご連絡ください。
+      #original_hash: 0afb595
+      no_profile_error: >-
+        WCA大会に未参加のため、個人プロフィールが作成されていません。その他のお問い合わせについては、直接<a
+        href="https://www.worldcubeassociation.org/contact?contactRecipient=wrt">WRT</a>にご連絡ください。
+      #original_hash: 43f15fd
+      no_permission_error: 他人の個人プロフィールを更新する権限がありません。
+      form:
+        contact_email:
+          #original_hash: 3142970
+          label: 連絡先メールアドレス
+        wca_id:
+          #original_hash: 6344c9e
+          label: WCA ID
+        wca_id_search:
+          #original_hash: fbba19d
+          label: プロフィールを更新したいアカウントのWCA IDを入力してください。
+        edit_reason:
+          #original_hash: fdfcccf
+          label: 変更の理由
+        proof_attach:
+          #original_hash: a9645b1
+          label: 証明書類の添付
+        submit_edit_request_button:
+          #original_hash: ab529a9
+          label: 編集リクエストを送信
+        captcha:
+          #original_hash: 58c1271
+          validation_error: 私はロボットではありません。
+      #original_hash: 126541e
+      success_message: リクエストが送信されました。返信までしばらくお待ちください。
   homepage:
     #original_hash: 824d76b
     learn_more: もっと見る
@@ -988,12 +1225,12 @@ ja:
       #original_hash: 3ffb811
       title: WCAについて
       #original_hash: ed77e4c
-      text: 世界キューブ協会 (WCA) は、いわゆる「立体回転パズル」 の大会を統制する団体です。
+      text: 世界キューブ協会 (WCA) は、いわゆる「立体回転パズル」 の競技大会を統括する団体です。
     competitions:
       #original_hash: db98a68
       title: WCA大会
       #original_hash: 0ac88bc
-      text_html: '世界中の大会スケジュールや結果を見てみましょう。また、まさに今行われている大会結果を%{wca_live_link}から生配信中です。'
+      text_html: '世界中の大会スケジュールや大会結果を確認できます。また、大会結果速報は%{wca_live_link}からご覧いただけます。'
     merchandise:
       #original_hash: 698cfc8
       title: WCA 公式グッズ
@@ -1005,14 +1242,14 @@ ja:
       link_title: もっと見る
     records:
       #original_hash: e51c552
-      title: 世界記録とランキング
+      title: 大会記録とランキング
       #original_hash: 3681af0
-      text: 現在の記録だけでなく、過去の変遷を見ることができます。
+      text: 最新の記録だけでなく、これまでのすべてのWCA公式種目の記録を見ることができます。
     faq:
       #original_hash: 03688ba
       title: よくある質問
       #original_hash: 1e0206f
-      text: 頻繁にお問合せいただく内容をまとめています。ご質問の前に、まずはこちらをご確認ください。
+      text: 頻繁にお問合せいただく内容をまとめています。お問い合わせの前に、まずはこちらをご確認ください。
     contact:
       #original_hash: b37456c
       title: お問合せ
@@ -1870,7 +2107,7 @@ ja:
           #original_hash: fe28f94
           opens_in: '参加申し込み受付は %{relativeDate} に開始されます。'
           #original_hash: f9f709e
-          closed: '参加申し込み受付は終了します。大会は %{relativeDate} に開始します。'
+          closed: '参加申し込み受付は終了しています。大会は %{relativeDate} に開始されます。'
           #original_hash: 2e17db8
           open: 参加申し込み受付中です。
           #original_hash: be2118d
