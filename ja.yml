@@ -152,57 +152,52 @@ ja:
       #original_hash: 4d618bb
       name: 予選ラウンド
       #original_hash: 4d618bb
-      cell_name: 予選ラウンド
+      cellName: 予選ラウンド
     '1':
       #original_hash: 1e725b6
       name: 1 回戦
       #original_hash: 1e725b6
-      cell_name: 1 回戦
+      cellName: 1 回戦
     '2':
       #original_hash: 985c8d0
       name: 2 回戦
       #original_hash: 985c8d0
-      cell_name: 2 回戦
+      cellName: 2 回戦
     '3':
       #original_hash: e2f74d2
       name: 準決勝
       #original_hash: e2f74d2
-      cell_name: 準決勝
+      cellName: 準決勝
     b:
       #original_hash: 327c999
       name: B 決勝
       #original_hash: 327c999
-      cell_name: B 決勝
+      cellName: B 決勝
     c:
       #original_hash: 672b22c
       name: 決勝
       #original_hash: 672b22c
-      cell_name: 決勝
+      cellName: 決勝
     d:
       #original_hash: 1e725b6
       name: 1 回戦
       #original_hash: 1e725b6
-      cell_name: 1 回戦
+      cellName: 1 回戦
     e:
       #original_hash: 985c8d0
       name: 2 回戦
       #original_hash: 985c8d0
-      cell_name: 2 回戦
+      cellName: 2 回戦
     f:
       #original_hash: 672b22c
       name: 決勝
       #original_hash: 672b22c
-      cell_name: 決勝
-    g:
-      #original_hash: e2f74d2
-      name: 準決勝
-      #original_hash: e2f74d2
-      cell_name: 準決勝
+      cellName: 決勝
     h:
       #original_hash: 4d618bb
       name: 予選ラウンド
       #original_hash: 4d618bb
-      cell_name: 予選ラウンド
+      cellName: 予選ラウンド
   attempts:
     #original_hash: 17dae1e
     attempt_name: '第%{number}試技'
@@ -255,7 +250,7 @@ ja:
     #original_hash: f030c3d
     333fm: 1時間
     #original_hash: cc7d8bb
-    333mbf: 1個あたり10分（最大60分）
+    333mbf: 1個あたり10分
     #original_hash: da39a3e
     333mbo: ''
   common:
@@ -426,7 +421,7 @@ ja:
         #original_hash: 8c41ae8
         wca_id: 個人
         #original_hash: fa4c045
-        country_id: 国・地域
+        countryId: 国・地域
         #original_hash: ab58155
         dob: 生年月日
         #original_hash: 8a754c6
@@ -478,19 +473,19 @@ ja:
         competition_id: 発生した大会
       competition_medium:
         #original_hash: 1917f4f
-        competition_id: 大会
+        competitionId: 大会
         #original_hash: 3deb745
-        media_type: 記録種別
+        type: 記録種別
         #original_hash: c3328c3
         text: 本文
         #original_hash: d051707
         uri: リンク
         #original_hash: 1be755a
-        submitter_name: 送信者氏名
+        submitterName: 送信者氏名
         #original_hash: 78cdfee
-        submitter_email: 送信者メールアドレス
+        submitterEmail: 送信者メールアドレス
         #original_hash: 0d31f23
-        submitter_comment: 送信者コメント
+        submitterComment: 送信者コメント
         #original_hash: bae7d5b
         status: 状態
       regional_organization:
@@ -531,26 +526,13 @@ ja:
         f: 女性
         #original_hash: 6e6a6f2
         o: その他
-    user_roles:
-      status:
-        officers:
-          #original_hash: de34439
-          chair: WCA議長
-          #original_hash: 7d405ff
-          executive_director: WCA代表実行役員
-          #original_hash: 1dd4a07
-          secretary: WCA書記
-          #original_hash: 0388b19
-          vice_chair: WCA副議長
-          #original_hash: 75e65d9
-          treasurer: WCA会計
     competition_medium:
       status:
         #original_hash: 61a0572
         accepted: 受理済
         #original_hash: 96f608c
         pending: 保留中
-      media_type:
+      type:
         #original_hash: ee45c30
         report: 報告
         #original_hash: 4360c2d
@@ -682,21 +664,30 @@ ja:
         comment: ''
       competition_medium:
         #original_hash: da39a3e
-        competition_id: ''
+        competitionId: ''
         #original_hash: da39a3e
-        media_type: ''
+        type: ''
         #original_hash: da39a3e
         text: ''
         #original_hash: da39a3e
         uri: ''
         #original_hash: da39a3e
-        submitter_name: ''
+        submitterName: ''
         #original_hash: da39a3e
-        submitter_email: ''
+        submitterEmail: ''
         #original_hash: da39a3e
-        submitter_comment: ''
+        submitterComment: ''
         #original_hash: da39a3e
         status: ''
+      results_submission:
+        #original_hash: da39a3e
+        schedule_url: ''
+        #original_hash: da39a3e
+        results_file: ''
+        #original_hash: da39a3e
+        message: ''
+        #original_hash: da39a3e
+        confirm_information: ''
       regional_organization:
         #original_hash: da39a3e
         name: ''
@@ -814,6 +805,8 @@ ja:
           #original_hash: d28c3b6
           support_desc_html: 'WCAウェブサイトはワンタイムパスワードによる%{two_factor_link}に対応しています。'
           options:
+            #original_hash: 4f9dcb8
+            app: 設定された二段階認証アプリケーションで生成されます（Authy、Google Authenticator等）
             #original_hash: eaee403
             email: ログイン時にメールにて送られています。
           #original_hash: 7ae99ae
@@ -838,6 +831,9 @@ ja:
           methods_description: ワンタイムパスワードの取得方法は選択できます。以下のようになっています。
           #original_hash: 4442f0e
           dedicated_app: 専用の二段階認証アプリケーションを使用する
+          #original_hash: a61c7d2
+          dedicated_app_desc_html: >-
+            WSTは各個人の端末に%{authy}をインストールしてワンタイムパスワードを管理することを推奨します。<br/>ほかには%{google}や%{microsoft}等があります。
           #original_hash: f1b2ec2
           scan_qrcode_html: >-
             二段階認証アプリケーションを使用する場合は、以下のQRコードを読み込んでください。（携帯端末の場合は、%{here}をタップしてください）
@@ -912,18 +908,16 @@ ja:
       about: WCA について
       #original_hash: ed97787
       documents: 各種文書
-      #original_hash: c9bae18
-      officers_and_board: WCA 役員、理事
       #original_hash: d8fd3e4
       delegates: WCA 代理人
       #original_hash: 37b8fdc
       organizations: 地域団体
-      #original_hash: 959d354
-      translators: 翻訳者
       #original_hash: d790b40
       faq: よくある質問
       #original_hash: cf1d2c9
       forum: フォーラム
+      #original_hash: 3ad28c0
+      teams: チーム、委員会、協議会
       #original_hash: 7981fb3
       education: 研修資料
       #original_hash: 8e12c09
@@ -958,6 +952,8 @@ ja:
       regulations: 大会規則
       #original_hash: 6bce1b5
       about_regulations: 大会規則について
+      #original_hash: 141d1d7
+      guidelines: ガイドライン
       #original_hash: c4622c3
       scrambles: スクランブル
       #original_hash: 90ccd64
@@ -992,226 +988,6 @@ ja:
       api: API
       #original_hash: acac109
       media_submission: メディア投稿
-  page:
-    officers_and_board:
-      #original_hash: c9bae18
-      title: WCA 役員、理事
-      #original_hash: 312e799
-      officers_description: >-
-        WCA役員は、WCAのNPOとしての事務処理を取り扱います。WCA役員は、WCA理事によって選出されます。代表執行役員はWCAの執行役員の長です。議長はすべての理事会を主宰します。書記は組織の文書を管理・保全します。会計はWCAの会計を担います。
-      #original_hash: 19d4bbb
-      board_description: WCA理事は組織全体の運営を主導し、また他のチーム・委員会の担当外の事項を担当します。
-    teams_committees_councils:
-      #original_hash: 1d14e2f
-      title: WCAチーム・委員会
-      #original_hash: 9fdee8f
-      description: >-
-        WCAのチームおよび委員会は、WCAを機能させるための日々のタスクを担う不可欠な組織です。これらの委員会は、WCA代理人や競技者などからなるWCAコミュニティメンバーによって成り立っています。各チームにはチームを機能させ、また他のメンバーをサポートするリーダーが設けられています。チームや委員会がメンバーを募集している場合は、WCAウェブサイトのトップページに募集要項が掲載されます。
-      #original_hash: b37456c
-      contact_button: 連絡先
-      #original_hash: ae7928f
-      no_contact_description: 連絡先は非公開です。
-      groups_description:
-        #original_hash: d62001b
-        wat: >-
-          WCA Archive Team
-          (WAT)は、WCAの沿革情報の管理を担います。WATは、スピードキュービングにおいて節目となる出来事やWCAの特筆すべきマイルストーンを記録し、スピードキュービングにおけるWCAのレガシーを保全します。
-        #original_hash: 7803faf
-        wct: >-
-          WCA Communication Team
-          (WCT)は、コミュニティや一般の方とWCAのコミュニケーションを統括・支援する役割を担います。WCAのコミュニケーションはWCAの目的を達成するのに貢献し、親しみやすさ、透明性、包摂性、開放性、誠実性といった文化を支えるものを目指しています。
-        #original_hash: bd69012
-        wcat: >-
-          WCA Competition Announcement Team
-          (WCAT)はWCA代理人によって申請されたWCA大会を承認・告知し、またそれらがWCAの品質基準を満たしていることを保証します。WCATはさらに、WCA
-          Competition Requirements
-          Policyによって大会開催の申請方法を適切に管理・公開する責任も負います。ただし、WCAは個別の大会の組織・監督に対する責任は持ちません。
-        #original_hash: 5007698
-        wic: >-
-          WCA Integrity Committee
-          (WIC)はWCAコミュニティメンバーやWCA大会・WCAプラットフォームでの事案に対して独立した調査を行います。調査対象は、WCAの理念、行動規範、倫理規定、大会規則の違反申し立てなどの事案です。
-        #original_hash: be491ec
-        weat: WCA Executive Assistant Team (WEAT)はWCA理事の事務処理を実行します。
-        #original_hash: fc67562
-        wfc: >-
-          WCA Financial Committee (WFC)
-          は、予算編成・会計報告・分析・会計処理・税務申告などのWCAの会計業務全体を担います。WFCはWCA最大の収入源であるWCA会費 (WCA
-          Dues System)
-          を管理するほか、旅費支援・備品支援・地域団体支援等の形で地域コミュニティへの財務支援をその成熟段階に応じて実施しています。
-        #original_hash: 88a00fa
-        wmt: WCA Marketing Team (WMT) は、スポンサー募集や関連商品マーケティング等の面でWCAブランドを管理しています。
-        #original_hash: fcaa701
-        wmct: >-
-          WCA Major Championship Team (WMCT)
-          は、WCAの大陸別大会・世界大会等の大型大会について、開催地の選定・組織委員会の支援・参加体験の一貫性の担保などの形で、その調整・発展を統括しています。
-        #original_hash: 010e628
-        wqac: >-
-          WCA Quality Assurance Committee (WQAC)
-          は、WCA品質基準を全世界に広げ、WCA・地域団体・大会組織委員会・大会ボランティアの活動における継続的な品質向上を推進する役割を担います。
-        #original_hash: 355babe
-        wrc: >-
-          WCA Regulations Committee (WRC)
-          は、WCA大会規則の適用・改善・発展に関するすべての事項を取り扱います。WRCはWCA大会で発生した問題の解決に関してWCA代理人を支援し、また未解決・未対応の事案に対して決定を下します。
-        #original_hash: 7ca3e6f
-        wrt: WCA Results Team (WRT) は、大会結果や個人データなど、WCAデータベースのすべてのデータの管理を行います。
-        #original_hash: f905744
-        wst: >-
-          WCA Software Team (WST)
-          は、WCAウェブサイト・スクランブルプログラム・ワークブック・管理ツールなどのWCAソフトウェアを管理・開発しています。
-        #original_hash: 638652c
-        wsot: WCA Sports Organization Team (WSOT) は、国際スポーツ組織としてのWCAの認知度向上を支援・統括します。
-        #original_hash: 30d6048
-        wapc: >-
-          WCA Appeals Committee (WAC)
-          は、他のWCAボランティアによる決定に対する不服申し立てを審査・解決します。公平・合理的かつWCAポリシー・規則と整合的な判断を下すために、WACは独立・公正な審査を実施します。
-    contacts:
-      #original_hash: 4ef2aad
-      title: WCAお問い合わせフォーム
-      #original_hash: ab97069
-      faq_note_html: >-
-        お問い合わせの前に、<a
-        href="/faq">よくある質問</a>ページをご覧ください。もし以下の一覧にないチーム・委員会へのお問い合わせをご希望の場合は、<a
-        href="/teams-committees">WCAチーム・委員会</a>ページに記載の連絡先までご連絡ください。
-      #original_hash: ea20be0
-      success_message: お問い合わせメールが送信されました。返信までしばらくお待ちください。
-      #original_hash: 8fa6b95
-      prefilled: >-
-        大会申込情報を更新するには、大会の運営に連絡してください。リクエストされた変更内容はフォームに事前入力されているため、このフォームを送信してください。
-      form:
-        user_data:
-          name:
-            #original_hash: 709a232
-            label: 氏名
-          email:
-            #original_hash: 84add5b
-            label: メールアドレス
-        contact_recipient:
-          #original_hash: 54f0036
-          label: 誰宛てのお問い合わせをご希望ですか？
-          competition:
-            #original_hash: 5a280ab
-            label: 特定の大会の運営・WCA代理人（WCAウェブサイトにて大会結果がまだ公開されていない大会）
-          wct:
-            #original_hash: b73e465
-            label: >-
-              WCAへの一般的な質問（WCA IDや個人プロフィール、大会の運営、大会ルール、メディア等）
-              ※お問い合わせ本文は英語で記載してください。
-          wrt:
-            #original_hash: 4dd66f7
-            label: WCA Results Team（WCAウェブサイト上の競技結果や個人プロフィール等） ※お問い合わせ本文は英語で記載してください。
-          wst:
-            #original_hash: 2be6d53
-            label: >-
-              WCA Software Team（WCAウェブサイトやソフトウェア関係のお問い合わせ）
-              ※お問い合わせ本文は英語で記載してください。
-        competition:
-          competition:
-            #original_hash: 1917f4f
-            label: 大会を選択してください
-          message:
-            #original_hash: 68f4145
-            label: お問い合わせ本文
-        wct:
-          message:
-            #original_hash: 68f4145
-            label: お問い合わせ本文
-        wrt:
-          query_type:
-            #original_hash: d31ab65
-            label: どのようなお問い合わせですか？
-            edit_profile:
-              #original_hash: 322db6c
-              label: 自分の個人プロフィールの更新（氏名、地域、性別、生年月日）
-            edit_others_profile:
-              #original_hash: d08e8eb
-              label: 他人の個人プロフィールの更新（氏名、国・地域、性別、生年月日）
-            report_result_issue:
-              #original_hash: 2edbb52
-              label: 大会結果に関する問題の報告
-            other_query:
-              #original_hash: 7618a0c
-              label: その他のお問い合わせ
-          message:
-            #original_hash: 68f4145
-            label: お問い合わせ本文
-          profile_data_to_change:
-            #original_hash: 25b71ff
-            label: 変更したい個人プロフィールデータ
-            options:
-              #original_hash: 709a232
-              name: 氏名
-              #original_hash: d523ebb
-              country: 国・地域
-              #original_hash: 8a754c6
-              gender: 性別
-              #original_hash: 293dd60
-              dob: 生年月日
-          new_profile_data_name:
-            #original_hash: ddbcd37
-            label: 変更後の氏名
-          new_profile_data_country:
-            #original_hash: e4e355e
-            label: 変更後の国・地域
-          new_profile_data_gender:
-            #original_hash: 48ce2a3
-            label: 変更後の性別
-          new_profile_data_dob:
-            #original_hash: 9f1c3d2
-            label: 変更後の生年月日
-          edit_profile_reason:
-            #original_hash: fdfcccf
-            label: 変更の理由 ※英語で記載してください。
-          edit_profile_proof_attach:
-            #original_hash: a9645b1
-            label: 証明書類の添付
-        wst:
-          message:
-            #original_hash: 68f4145
-            label: お問い合わせ本文
-        captcha:
-          #original_hash: 58c1271
-          validation_error: 私はロボットではありません。
-        #original_hash: bc98198
-        next_button: 次へ
-        #original_hash: 2dacf65
-        submit_button: 送信
-    contact_edit_profile:
-      #original_hash: 460577c
-      title: プロフィール変更フォーム
-      #original_hash: f01c4c7
-      not_logged_in_error: >-
-        プロフィールを変更するにはログインしてください。その他のお問い合わせについては、直接<a
-        href="https://www.worldcubeassociation.org/contact?contactRecipient=wrt">WRT</a>にご連絡ください。
-      #original_hash: 0afb595
-      no_profile_error: >-
-        WCA大会に未参加のため、個人プロフィールが作成されていません。その他のお問い合わせについては、直接<a
-        href="https://www.worldcubeassociation.org/contact?contactRecipient=wrt">WRT</a>にご連絡ください。
-      #original_hash: 43f15fd
-      no_permission_error: 他人の個人プロフィールを更新する権限がありません。
-      form:
-        contact_email:
-          #original_hash: 3142970
-          label: 連絡先メールアドレス
-        wca_id:
-          #original_hash: 6344c9e
-          label: WCA ID
-        wca_id_search:
-          #original_hash: fbba19d
-          label: プロフィールを更新したいアカウントのWCA IDを入力してください。
-        edit_reason:
-          #original_hash: fdfcccf
-          label: 変更の理由
-        proof_attach:
-          #original_hash: a9645b1
-          label: 証明書類の添付
-        submit_edit_request_button:
-          #original_hash: ab529a9
-          label: 編集リクエストを送信
-        captcha:
-          #original_hash: 58c1271
-          validation_error: 私はロボットではありません。
-      #original_hash: 126541e
-      success_message: リクエストが送信されました。返信までしばらくお待ちください。
   homepage:
     #original_hash: 824d76b
     learn_more: もっと見る
@@ -1225,12 +1001,12 @@ ja:
       #original_hash: 3ffb811
       title: WCAについて
       #original_hash: ed77e4c
-      text: 世界キューブ協会 (WCA) は、いわゆる「立体回転パズル」 の競技大会を統括する団体です。
+      text: 世界キューブ協会 (WCA) は、いわゆる「立体回転パズル」 の大会を統制する団体です。
     competitions:
       #original_hash: db98a68
       title: WCA大会
       #original_hash: 0ac88bc
-      text_html: '世界中の大会スケジュールや大会結果を確認できます。また、大会結果速報は%{wca_live_link}からご覧いただけます。'
+      text_html: '世界中の大会スケジュールや結果を見てみましょう。また、まさに今行われている大会結果を%{wca_live_link}から生配信中です。'
     merchandise:
       #original_hash: 698cfc8
       title: WCA 公式グッズ
@@ -1242,14 +1018,14 @@ ja:
       link_title: もっと見る
     records:
       #original_hash: e51c552
-      title: 大会記録とランキング
+      title: 世界記録とランキング
       #original_hash: 3681af0
-      text: 最新の記録だけでなく、これまでのすべてのWCA公式種目の記録を見ることができます。
+      text: 現在の記録だけでなく、過去の変遷を見ることができます。
     faq:
       #original_hash: 03688ba
       title: よくある質問
       #original_hash: 1e0206f
-      text: 頻繁にお問合せいただく内容をまとめています。お問い合わせの前に、まずはこちらをご確認ください。
+      text: 頻繁にお問合せいただく内容をまとめています。ご質問の前に、まずはこちらをご確認ください。
     contact:
       #original_hash: b37456c
       title: お問合せ
@@ -1263,6 +1039,10 @@ ja:
     support:
       #original_hash: 610edba
       title: WCAへの寄付
+      #original_hash: 1aaf818
+      text: >-
+        WCAは米国税法第501条(c)(3)による税優遇を受けた非営利団体 (NPO)
+        です。100%ボランティア団体として、世界中でより楽しいWCA大会を提供するための寄付を歓迎しています。
       #original_hash: 65c84ec
       button: ご支援いただくには
   users:
@@ -1590,11 +1370,15 @@ ja:
         with_stripe: に支払い済み
       #original_hash: ce53c71
       payment_requested_on: '支払い申請日時: %{date}'
+      #original_hash: f5b1b34
+      payment_completed_on: '%{date}　に支払い済み'
       #original_hash: b25928c
       total: 合計
     new_registration:
       #original_hash: 8b9f726
       title: '%{comp} 参加申し込み'
+    #original_hash: 7cae988
+    registered_with_account_html: 'WCA アカウントを利用して申し込み済みです。プロフィール情報の変更はこちら %{here}。'
     #original_hash: ada2e9e
     sign_in: ログイン
     #original_hash: 5d45a00
@@ -1746,6 +1530,8 @@ ja:
       results_still_processing: 大会結果の処理に時間がかかっています。しばらくお待ちください。
       #original_hash: e205d73
       results_already_posted: 大会結果は公開済みです。
+      #original_hash: 376f461
+      results_posted: 大会結果が公開されました！
       #original_hash: afe3a23
       results_preview_alert: まだ公開されていない結果を表示しています。
       #original_hash: 16dd227
@@ -1919,6 +1705,10 @@ ja:
       event_change_deadline_edits_allowed_html: 'すでに参加申し込み済みの場合、%{event_change_deadline} までは %{register} タブで参加種目を変更できます。'
       #original_hash: eff3594
       event_change_deadline_default_html: 参加種目の追加はWCAウェブサイト上で行うことを推奨しますが、当日その種目が開始するまでは参加種目追加を受け付けます。
+      #original_hash: cf7be5d
+      on_the_spot_registration_fee_html: '会場申し込みを基本参加費 %{on_the_spot_base_entry_fee} にて受け付けます。'
+      #original_hash: 1637bea
+      on_the_spot_registration_free: 会場申し込みは無料で受け付けます。
       #original_hash: f5f687d
       no_on_the_spot_registration: 会場申し込みは受け付けません。
       #original_hash: 4df139d
@@ -2107,7 +1897,7 @@ ja:
           #original_hash: fe28f94
           opens_in: '参加申し込み受付は %{relativeDate} に開始されます。'
           #original_hash: f9f709e
-          closed: '参加申し込み受付は終了しています。大会は %{relativeDate} に開始されます。'
+          closed: '参加申し込み受付は終了します。大会は %{relativeDate} に開始します。'
           #original_hash: 2e17db8
           open: 参加申し込み受付中です。
           #original_hash: be2118d
@@ -2154,6 +1944,8 @@ ja:
       confirmed_but_not_visible_html: 'この大会の概要は確定済ですが未公開です。公開するには %{contact} に連絡してください。'
       #original_hash: e94cba8
       is_visible: この大会は公開済みです。内容の変更は公開情報に反映されます。
+      #original_hash: 1039850
+      pending_confirmation_html: '各項目を入力し、%{contact} による承認が必要な段階になったら、代理人に大会情報の確定を依頼してください。'
       #original_hash: 8966fd0
       submit_create_value: 大会を新規作成する
       #original_hash: 40b0dfd
@@ -2391,6 +2183,8 @@ ja:
         competitor_limit:
           #original_hash: 945da5b
           enabled: 競技者定員は入力必須です。ただし複数会場同時開催のFMC大会に限り競技者定員は入力不要です。
+          #original_hash: b7b599b
+          count: この大会で許容される参加者数の上限。現在のところ定員による締切システムは未実装のため、この値は表示されるのみで自動処理は行われません。
           #original_hash: 4bd7102
           reason: 競技者定員設定の理由 (英語で記入してください)
         staff:
@@ -2625,6 +2419,8 @@ ja:
         email_message: メールをコピーしました。メール送信の際、必要であればbccを使用してください。
         #original_hash: 43dc853
         amount: 数
+        #original_hash: 67b3c7d
+        too_many: 'これらの参加申し込みを承認すると、競技者定員を%{count}人超過します。'
         #original_hash: 462376a
         no_self_update: 参加申し込みを更新する場合、主催者に連絡してください。
       register:
@@ -2891,6 +2687,8 @@ ja:
     cancelled_by_html: '%{name} が %{date_time} に中止'
     #original_hash: 25e68c3
     cancel_confirm: 本当にこの大会を中止してよいですか？
+    #original_hash: 01de5ee
+    post_results: 大会結果を投稿する
     #original_hash: b6513f1
     results_posted_by_html: '%{poster_name} が %{date_time} に投稿'
     #original_hash: a6b5efe
@@ -2926,10 +2724,16 @@ ja:
           (%{regulation_link} 参照)。
         #original_hash: 83d204f
         regulation_link_text: '大会規則 %{number}'
+        #original_hash: bd0e4a9
+        guideline_link_text: 'ガイドライン %{number}'
         #original_hash: b2a983a
         cumulative_time_limit: 累積制限タイム
         #original_hash: d47f11a
         cumulative_one_round_html: '%{cumulative_time_limit} が採用される場合があります (%{regulation_link} 参照)。'
+        #original_hash: c6190b6
+        cumulative_across_rounds_html: >-
+          %{cumulative_time_limit} がラウンドをまたいで採用される場合があります (%{guideline_link}
+          参照)。
         #original_hash: e8d17df
         cutoff_html: 'ラウンド後半の試技を行う条件となるタイム (%{regulation_link} 参照)。'
         #original_hash: f571a30
@@ -3137,6 +2941,10 @@ ja:
       events_selector:
         #original_hash: ad8919a
         event: 種目
+        #original_hash: 3e83afa
+        all_events: 全種目
+      #original_hash: 0f21717
+      region: 地域
       type_selector:
         #original_hash: 3deb745
         type: 記録種別
@@ -3144,13 +2952,30 @@ ja:
         single: 単発
         #original_hash: 15f86c0
         average: 平均
+      years_selector:
+        #original_hash: 96f997b
+        years: 年
+        #original_hash: 0977c76
+        all_years: すべて
+        #original_hash: 8737f09
+        only: ある年のみ
+        #original_hash: b3c0fe7
+        only_html: '%{year}年のみ'
+        #original_hash: 96bdb66
+        until: ある年以前
+        #original_hash: fa23930
+        until_html: '%{year}年以前'
       show_selector:
         #original_hash: d97d1ee
         show: 表示形式
         #original_hash: f3cf96e
         persons: 競技者ごと
+        #original_hash: 16d3376
+        persons_html: '%{quantity}人'
         #original_hash: 612e12d
         results: 結果ごと
+        #original_hash: f3baa4a
+        results_html: '%{quantity}回'
         #original_hash: d46d2ee
         by_region: 地域ごと
         #original_hash: c0dcb86
@@ -3177,6 +3002,8 @@ ja:
       name: 氏名
       #original_hash: 5faa59d
       result: 結果
+      #original_hash: fa4c045
+      representing: 国・地域
       #original_hash: 1917f4f
       competition: 大会
       #original_hash: e7f6fc5
@@ -3185,18 +3012,22 @@ ja:
       region: 地域
       #original_hash: 70c07ec
       world: 世界
+      type_options:
+        #original_hash: 3deb745
+        type: 記録種別
+        #original_hash: dd11868
+        single: 単発
+        #original_hash: 15f86c0
+        average: 平均
       #original_hash: ad8919a
       event: 種目
       #original_hash: dcf8b56
       date_circa: 更新日
+      #original_hash: 1c54132
+      record: 記録
   notifications:
     #original_hash: 10bcdbd
     connect_wca_id: WCA ID をアカウントに連携しましょう！
-  payments:
-    payment_setup:
-      connect_account_warning:
-        #original_hash: da39a3e
-        manual: ''
   persons:
     index:
       #original_hash: 5934b4c
@@ -3465,6 +3296,10 @@ ja:
     spirit_footer: WCAの精神
     #original_hash: c1781ee
     our_goals_title: 我々の目標
+    #original_hash: 375db0f
+    our_goals_content_html: >-
+      <p>WCAは、回転パズルの競技大会への参加機会を広く確保することで、世界中の若い世代にコミュニティメンバーシップ・リーダーシップに触れる機会を提供しようと試みています。WCA大会やWCAコミュニティでの経験によって、若者に成長のチャンスが生まれ、さらにそこから広くイベントを波及させることによって、WCAコミュニティ全体がより豊かになっていくと確信しています。WCA理事のビジョンや戦略などの文書は、<a
+      href="https://documents.worldcubeassociation.org/documents/WCA_Vision_and_Strategy.pdf">こちら</a>で公開されています。</p>
     #original_hash: f64ccc7
     whats_next_title: WCA の今後
     #original_hash: 3312277
@@ -3503,6 +3338,9 @@ ja:
     structure:
       #original_hash: 9482c5d
       title: 組織
+      board:
+        #original_hash: e0d37a2
+        description: WCA 理事は包括的な組織の指揮をとります。WCA チーム、委員会、評議会では満たせないすべての役割がその所掌となります。
       users:
         #original_hash: 57bbaad
         profile: '%{user_name}のプロフィール'
@@ -3621,6 +3459,8 @@ ja:
       advanced_search: 詳細検索
       #original_hash: a0ca0c3
       posts: 投稿
+      #original_hash: 9d7ea9c
+      regulations_and_guidelines: 大会規則とガイドライン
       not_found:
         #original_hash: b8a7006
         competitions: '以下に関する大会結果は見つかりませんでした:'
@@ -3628,6 +3468,8 @@ ja:
         people: '以下に関する競技者は見つかりませんでした:'
         #original_hash: c6a04aa
         posts: '以下に関する投稿は見つかりませんでした:'
+        #original_hash: 76a6bf1
+        regulations_and_guidelines: '以下に関する大会結果・ガイドラインは見つかりませんでした:'
   incidents_log:
     #original_hash: 61ab89f
     i18n_disclaimer: インシデントの内容はすべて英語で記述されています。ご了承ください。
@@ -3641,6 +3483,14 @@ ja:
       content1_html: >-
         すべての競技者は <a href="/regulations/"> WCA 大会規則</a>
         に従う必要があります。大会に初めて参加する前に大会規則に目を通しておきましょう。
+      #original_hash: 4296902
+      content2_html: >-
+        WCA 大会規則の補足として <a href="/regulations/guidelines.html">WCA ガイドライン</a>
+        がまとめられています。ガイドラインには追加説明等が記載されています。
+      #original_hash: c8e1783
+      content3_html: >-
+        過去の大会における重要なインシデントとその解決事例を<a
+        href="/incidents">インシデントのログ一覧</a>よりご覧いただけます。（英語表記のみ）
     panel2:
       #original_hash: 8ad8302
       title: 翻訳
@@ -3669,6 +3519,8 @@ ja:
       #original_hash: 5016669
       content2_html: この内容は重要な情報を含んでいます。すべての大会運営に関わる方が読むことが望ましいです。
   regulations_translations:
+    #original_hash: 9493b8d
+    title: WCA大会規則：各国語訳
     #original_hash: 386ecc1
     paragraph1: 英語以外の言語話者の方は、各国語訳もご確認ください。
     #original_hash: 32b1132
