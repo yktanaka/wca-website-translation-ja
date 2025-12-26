@@ -407,7 +407,7 @@ ja:
         #original_hash: 983d541
         discussion_url: Google グループ上のディスカッション URL
         #original_hash: 65a9b28
-        schedule_url: タイムスケジュール URL
+        schedule_url: スケジュール URL
         #original_hash: 36155d4
         equipment: 備品
         #original_hash: 67cd406
@@ -640,7 +640,7 @@ ja:
           この情報は秘匿されません。ウェブページには掲載されていなくても、リンクを直接入力したりタグから検索することで誰からでも閲覧可能な状態となります。
       delegate_report:
         #original_hash: 4eefb60
-        schedule_url: タイムスケジュールページの URL
+        schedule_url: スケジュールページの URL
         #original_hash: 1a68719
         equipment: 使用ディスプレイのバージョンおよび数 (使用しなかったものについては - を削除してください)
         #original_hash: 2822e8d
@@ -1708,7 +1708,7 @@ ja:
       #original_hash: 1a20fae
       must_have_events: 大会内容を確定する前に 1 個以上の競技種目を追加してください。
       #original_hash: fd91320
-      schedule_must_match_rounds: 大会を確定する前に、各種目にラウンドが 1 個以上設定されており、タイムスケジュールにすべてのラウンドが含まれていることを確認してください。
+      schedule_must_match_rounds: 大会を確定する前に、各種目にラウンドが 1 個以上設定されており、スケジュールにすべてのラウンドが含まれていることを確認してください。
       #original_hash: 4fe4dee
       advancement_condition_must_be_present_for_all_non_final_rounds: 決勝以外のすべてのラウンドに次ラウンド進出条件が設定されていることを確認してください。
       #original_hash: a00f441
@@ -2915,9 +2915,9 @@ ja:
       #original_hash: c5497bc
       events: 開催種目
       #original_hash: 0a8adac
-      schedule: タイムスケジュール
+      schedule: スケジュール
       #original_hash: 1060ed0
-      no_schedule: この大会はタイムスケジュールがありません。PDFを生成できません。
+      no_schedule: この大会はスケジュールがありません。PDFを生成できません。
     events:
       time_limit_information:
         #original_hash: 88c5f1a
@@ -2957,7 +2957,7 @@ ja:
         #original_hash: adab509
         calendar: タイムテーブル
       #original_hash: 017e4d8
-      display_for_room: '次の会場のタイムスケジュールを表示する :'
+      display_for_room: '次の会場のスケジュールを表示する :'
       range:
         #original_hash: 3f66052
         from: 開始
@@ -2970,7 +2970,7 @@ ja:
       #original_hash: 81c0d91
       activity: 内容
       #original_hash: 15e58c6
-      no_activities: 選択した会場ではタイムスケジュールが設定されていません。
+      no_activities: 選択した会場ではスケジュールが設定されていません。
       #original_hash: 10a56c8
       all_venues: すべての会場
       #original_hash: a0b3266
@@ -2994,14 +2994,14 @@ ja:
       room_in_venue: '%{room} (%{venue})'
       #original_hash: f7fd979
       venue_selection_html:
-        zero: '%{venue_name} のタイムスケジュールを表示しています (ほかに会場はありません)。'
-        other: '%{venue_name} のタイムスケジュールを表示しています (%{count} 個の会場のうちの 1 つです)。'
+        zero: '%{venue_name} のスケジュールを表示しています (ほかに会場はありません)。'
+        other: '%{venue_name} のスケジュールを表示しています (%{count} 個の会場のうちの 1 つです)。'
       #original_hash: 8d175ad
-      venue_selection_all: '%{venueCount} 個の会場のタイムスケジュールをすべて表示しています。'
+      venue_selection_all: '%{venueCount} 個の会場のスケジュールをすべて表示しています。'
       #original_hash: 97df911
       timezone_message: 'この会場のタイムゾーンは %{timezone} です。'
       #original_hash: 94b2570
-      timezone_setting: 'このタイムゾーンの時刻でタイムスケジュールを表示しています:'
+      timezone_setting: 'このタイムゾーンの時刻でスケジュールを表示しています:'
       #original_hash: 75194fd
       multiple_timezones_available: '注意: タイムゾーンが異なる (時差のある) 会場があります。'
       #original_hash: d94a371
@@ -3011,11 +3011,11 @@ ja:
       #original_hash: 9974a46
       timezone_follow_venue: 自動で会場のタイムゾーンを使用する
       #original_hash: 37b1adb
-      schedule_for_date: '%{day_name} (%{full_date}) のタイムスケジュール'
+      schedule_for_date: '%{day_name} (%{full_date}) のスケジュール'
       #original_hash: d58b281
-      schedule_for_full_date: '%{date} のタイムスケジュール'
+      schedule_for_full_date: '%{date} のスケジュール'
       #original_hash: eb1090e
-      schedule_change_warning: タイムスケジュールは変更される可能性があります。大きな変更があった場合、競技者にメールで通知されます。
+      schedule_change_warning: スケジュールは変更される可能性があります。大きな変更があった場合、競技者にメールで通知されます。
     nav:
       menu:
         #original_hash: 612e12d
@@ -3037,7 +3037,7 @@ ja:
         #original_hash: c6171f8
         event_view: 競技種目設定
         #original_hash: 6235b27
-        schedule_view: タイムスケジュール設定
+        schedule_view: スケジュール設定
         #original_hash: 6f7aef9
         payment_view: 支払い設定
         #original_hash: 76bfdcf
@@ -3766,7 +3766,7 @@ ja:
       title: 大会前にやること
       list:
         #original_hash: c8abb5e
-        '1': 大会を告知する前に、大会ページで公開するためのタイムスケジュールが必要です。このタイムスケジュールは後で変更することができます。
+        '1': 大会を告知する前に、大会ページで公開するためのスケジュールが必要です。このスケジュールは後で変更することができます。
         #original_hash: e93d043
         '2': >-
           競技者をグループに分割し、スコアシートは必ず印刷し、グループごとに分けて準備しておくことが望ましいです。少なくとも 1
