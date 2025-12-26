@@ -537,7 +537,7 @@ ja:
           #original_hash: de34439
           chair: WCA議長
           #original_hash: 7d405ff
-          executive_director: WCA代表実行役員
+          executive_director: WCA事務局長
           #original_hash: 1dd4a07
           secretary: WCA書記
           #original_hash: 0388b19
@@ -913,7 +913,7 @@ ja:
       #original_hash: ed97787
       documents: 各種文書
       #original_hash: c9bae18
-      officers_and_board: WCA 役員、理事
+      officers_and_board: WCA 役員、理事会
       #original_hash: d8fd3e4
       delegates: WCA 代理人
       #original_hash: 37b8fdc
@@ -995,12 +995,12 @@ ja:
   page:
     officers_and_board:
       #original_hash: c9bae18
-      title: WCA 役員、理事
+      title: WCA 役員、理事会
       #original_hash: 312e799
       officers_description: >-
-        WCA役員は、WCAのNPOとしての事務処理を取り扱います。WCA役員は、WCA理事によって選出されます。代表執行役員はWCAの執行役員の長です。議長はすべての理事会を主宰します。書記は組織の文書を管理・保全します。会計はWCAの会計を担います。
+        WCA役員は、WCAのNPOとしての事務処理を取り扱います。WCA役員は、WCA理事によって選出されます。事務局長はWCAのCEOです。議長はすべての理事会会議を主宰します。書記は組織の文書を管理・保全します。会計はWCAの会計を担います。
       #original_hash: 19d4bbb
-      board_description: WCA理事は組織全体の運営を主導し、また他のチーム・委員会の担当外の事項を担当します。
+      board_description: WCA理事会は組織全体の運営を主導し、また他のチーム・委員会の担当外の事項を担当します。
     teams_committees_councils:
       #original_hash: 1d14e2f
       title: WCAチーム・委員会
@@ -1031,7 +1031,7 @@ ja:
           WCA Integrity Committee
           (WIC)はWCAコミュニティメンバーやWCA大会・WCAプラットフォームでの事案に対して独立した調査を行います。調査対象は、WCAの理念、行動規範、倫理規定、大会規則の違反申し立てなどの事案です。
         #original_hash: be491ec
-        weat: WCA Executive Assistant Team (WEAT)はWCA理事の事務処理を実行します。
+        weat: WCA Executive Assistant Team (WEAT)はWCA理事会の事務処理を実行します。
         #original_hash: fc67562
         wfc: >-
           WCA Financial Committee (WFC)
@@ -3489,8 +3489,10 @@ ja:
     donation_banner:
       #original_hash: 1aaf818
       content: >-
-        WCAは米国税法第501条(c)(3)による税優遇を受けた非営利団体 (NPO)
-        です。100%ボランティア団体として、世界中でより楽しいWCA大会を提供するための寄付を歓迎しています。
+        The World Cube Association is a 501(c)(3) tax-exempt organization. As a
+        100% volunteer-led nonprofit, we welcome your donations to help us
+        further our vision of having more enjoyable competitions all over the
+        world.
       #original_hash: 24c87db
       donate_credit: クレジットカードで寄付
       #original_hash: 0e5a9c3
